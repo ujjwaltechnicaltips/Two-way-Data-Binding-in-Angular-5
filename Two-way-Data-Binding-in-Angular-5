@@ -2,6 +2,7 @@
 app.component.html
 ----------------------------------------------------
 <input [(ngModel)] = 'email' (click) = getEmail()>
+{{email}}
 
 app.component.ts
 ----------------------------------------------------
